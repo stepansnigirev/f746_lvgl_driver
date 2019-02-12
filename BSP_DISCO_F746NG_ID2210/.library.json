@@ -1,0 +1,65 @@
+{
+    "authors": [
+        {
+            "email": null, 
+            "url": "https://os.mbed.com/teams/ST/", 
+            "maintainer": false, 
+            "name": "ST"
+        }
+    ], 
+    "build": {
+        "flags": [
+            "-IDrivers", 
+            "-IDrivers/BSP", 
+            "-IDrivers/BSP/STM32746G-Discovery", 
+            "-IDrivers/BSP/Components", 
+            "-IDrivers/BSP/Components/rk043fn48h", 
+            "-IDrivers/BSP/Components/ov9655", 
+            "-IDrivers/BSP/Components/n25q128a", 
+            "-IDrivers/BSP/Components/Common", 
+            "-IDrivers/BSP/Components/ft5336", 
+            "-IDrivers/BSP/Components/wm8994", 
+            "-IUtilities", 
+            "-IUtilities/Fonts"
+        ]
+    }, 
+    "description": "STM32746G-Discovery board drivers V1.0.0", 
+    "examples": [
+        "https://os.mbed.com/users/JackB/code/DISCO-F746NG_LCDTS_CC3000_NTP/", 
+        "https://os.mbed.com/users/GabDiSi/code/DISCO-F746NG_ROPE_WIFI/", 
+        "https://os.mbed.com/users/MikamiUitOpen/code/F746_SpectralAnalysis_Example/", 
+        "https://os.mbed.com/users/MikamiUitOpen/code/F746_SpectralAnalysis_NoPhoto/", 
+        "https://os.mbed.com/users/habiburrahman/code/ecte433/", 
+        "https://os.mbed.com/users/pryd/code/DISCO-F746NG_lepton/", 
+        "https://os.mbed.com/users/kai86/code/DISCO-F746NG_LCD_demo/", 
+        "https://os.mbed.com/users/YashwantMane/code/DISCO-F746NG_LCD_demo/", 
+        "https://os.mbed.com/users/icis4/code/DISCO_F746NG_STemWin_HelloWorld/", 
+        "https://os.mbed.com/users/neverblue/code/DISCO-F746NG_LCD_demo/"
+    ], 
+    "frameworks": [
+        "mbed"
+    ], 
+    "keywords": [
+        "bsp", 
+        "disco_f746ng"
+    ], 
+    "name": "BSP_DISCO_F746NG", 
+    "platforms": [
+        "atmelsam", 
+        "freescalekinetis", 
+        "maxim32", 
+        "nordicnrf51", 
+        "nordicnrf52", 
+        "nxplpc", 
+        "siliconlabsefm32", 
+        "ststm32", 
+        "teensy", 
+        "wiznet7500"
+    ], 
+    "repository": {
+        "type": "hg", 
+        "url": "https://os.mbed.com/teams/ST/code/BSP_DISCO_F746NG/"
+    }, 
+    "version": "df2ea349c3", 
+    "id": 2210
+}
