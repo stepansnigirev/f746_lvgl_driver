@@ -1,6 +1,6 @@
 /**
  * @file indev.h
- * 
+ *
  */
 
 #ifndef INDEV_H
@@ -23,8 +23,15 @@
 /**********************
  * GLOBAL PROTOTYPES
  **********************/
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 void touchpad_init(void);
 
+#ifdef __cplusplus
+} // extern "C"
+#endif
 /**********************
  *      MACROS
  **********************/

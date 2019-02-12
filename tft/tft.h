@@ -26,7 +26,15 @@
 /**********************
  * GLOBAL PROTOTYPES
  **********************/
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 void tft_init(void);
+
+#ifdef __cplusplus
+} // extern "C"
+#endif
 
 /**********************
  *      MACROS
